@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/cee4d269ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anybody:ital,wght@1,900&family=Dancing+Script&family=Merienda:wght@700&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="icon" type="image/x-icon" href="MyImg.png">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- Html Code for Navbar Area -->
+
+    <div id="container">
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><img src="MyImg.png" id="myimg"></li>
+                    <li id="active"><a href="#">
+                        <i class="fa fa-home"></i><br>Home</a></li>
+                    <li><a href="#about">
+                        <i class="fa fa-user"></i><br>About</a></li>
+                    <li><a href="#projects">
+                        <i class="fa fa-eye"></i><br>Projects</a></li>
+                    <li><a href="#contact">
+                        <i class="fa fa-envelope"></i><br>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- Html Code for Navbar Area in mobile screen -->
+
+    <div id="nav_area">
+        <div id="myNavbar">
+            <a href="#">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Html Code for Home page Area -->
+
+    <section id="home">
+        <div id="image-container">
+            <h1><span>I'm</span> Faryal Kehkashan</h1>
+            <h2>Front-End Web Developer</h2>
+            <img src="MyImg.png">
+        </div>
+    </section>
+
+    <!-- Html Code for About page Area -->
+
+    <section id="about">
+        <div id="about-div">
+            <h2 id="my-name">Faryal Kehkashan</h2>
+            <hr id="h-r">
+            <p> 
+                I have more than one year of experience in Front-End Development
+               (HTML ,CSS and JavaScript (React.js < 1 year)). I have also worked
+                with WordPress for developing Websites for more than 5 months. And 
+                Currently I am working as a Web developer intern (WordPress) at BMSAS Technologies.
+            </p>
+            <hr id="h-r2">
+
+            <h2 id="my-skill">My Skills</h2> 
+
+            <p>HTML</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 90%;"></div>
+            </div>
+            <br>
+         
+            <p>CSS</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 70%;"></div>
+            </div>
+            <br>
+
+            <p>JavaScript</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 60%;"></div>
+            </div>
+            <br><br>
+
+            <p>Flex-box</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 60%;"></div>
+            </div>
+            <br>
+
+            <p>Git</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 60%;"></div>
+            </div>
+            <br>
+
+            <p>Python</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 70%;"></div>
+            </div>
+            <br>
+
+            <p>C++</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 70%;"></div>
+            </div>
+            <br>
+
+            <p>SQL</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 70%;"></div>
+            </div>
+            <br>
+
+            <p>WordPress</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 77%;"></div>
+            </div>
+            <br>
+            <p>Microsoft Office automation</p>
+            <div class="skill-div">
+                <div class="skill" style="width: 70%;"></div>
+            </div>
+            <br>
+            <br>
+            
+            <button>
+                <a href="CV.pdf" download id="cv-btn">
+                    <i class="fa fa-download" id="btn-icon"></i>
+                    Download Resume
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Html Code for Projects page Area -->
+
+    <section id="projects">
+        <div id="projects-div">
+            <h2>My Projects</h2>
+            <hr>
+            <div id="images">
+                <img src="Img_2.png">
+                <img src="Img_3.png">
+                <img src="Img_4.png">
+                <img src="Img_5.png">
+                <img src="Img_6-min.png">
+                <img src="Img_7.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Html Code for Contact page Area -->
+
+    <section id="contact">
+        <div id="contact-div">
+            <h2>Contact Us</h2>
+            <hr>
+            <p>
+                <i class="fa fa-map-marker"></i>
+                Chitral, KPK Pakistan
+            </p>
+            <p>
+                <i class="fa fa-phone"></i>
+                Phone: +923448537893
+            </p>
+            <p>
+                <i class="fa fa-envelope"></i>
+                Email: Faryalkehkashanfoa@gmail.com
+            </p>
+
+            <p id="msg-para">Let's get in touch. Send me a message.</p>
+            
+            <form action="https://formspree.io/f/mzboaawn">
+                <input type="text" name="name" placeholder="Name">  <br>
+                <input type="email" name="email" placeholder="Email">  <br>
+                <input type="text" name="subject" placeholder="Subect">  <br>
+                <input type="text" name="message" placeholder="Message">  <br>
+            </form>
+
+            <button type="submit" id="send-btn">
+                <i class="fa fa-paper-plane" id="send-btn-icon"></i>
+                Send Message
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Html Code for Footer Area -->
+
+    <Footer>
+        <a href="https://www.facebook.com/profile.php?id=100077718771764">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/what_da_code?utm_medium=copy_link">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/home?lang=en">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/faryal-kehkashan-3b4272229/">
+            <i class="fa fa-linkedin"></i>
+        </a>
+    </Footer>
+</body>
+</html>
